@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Sitio de Dibujos</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Sitio de Dibujos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#propietario">Sobre Mí</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Categorías</a>
+                        <div class="dropdown-content">
+                            <a href="#caricaturas">Caricaturas</a>
+                            <a href="#paisajes">Paisajes</a>
+                            <a href="#anime">Anime</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="javascript:void(0);" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="propietario">
+        <div class="container">
+            <h2>Información del Propietario del Sitio</h2>
+            <p>¡Bienvenido a mi sitio de dibujos! Soy Maria Emilia Romero, un apasionado del arte y la ilustración. En este sitio, comparto mis creaciones en tres categorías: caricaturas, paisajes y anime.</p>
+            <p>Si tienes alguna pregunta o comentario, no dudes en contactarme a través del formulario de contacto. ¡Espero que disfrutes explorando mis dibujos!</p>
+        </div>
+    </section>
+
+    <section id="catalogo">
+        <div class="container">
+            <h2>Catálogo</h2>
+            <div class="categoria" id="caricaturas">
+                <h3>Caricaturas</h3>
+                <div class="imagen">
+                    <img src="/imagenes/caricaturas/messi.png" alt="Messi">
+                    <img src="/imagenes/caricaturas/kaka.png" alt="Kaka">
+                    <img src="/imagenes/caricaturas/MrBean.png" alt="Mr. Bean">
+                    <img src="/imagenes/caricaturas/chavo.png" alt="chavo del 8">
+                </div>
+                <!-- Agrega más imágenes de caricaturas si es necesario -->
+            </div>
+
+            <div class="categoria" id="paisajes">
+                <h3>Paisajes</h3>
+                <div class="imagen">
+                    <img src="/imagenes/paisajes/casita.png" alt="Casita">
+                    <img src="/imagenes/paisajes/iguazu.png" alt="Iguazu">
+                    <img src="/imagenes/paisajes/montanias.png" alt="Montañas">
+                    <img src="/imagenes/paisajes/japon.png" alt="japón">
+                </div>
+                <!-- Agrega más imágenes de paisajes si es necesario -->
+            </div>
+
+            <div class="categoria" id="anime">
+                <h3>Anime</h3>
+                <div class="imagen">
+                    <img src="/imagenes/anime/anime1.png" alt="Anime 1">
+                    <img src="/imagenes/anime/anime2.png" alt="Anime 2">
+                    <img src="/imagenes/anime/anime3.png" alt="Anime 3">
+                    <img src="/imagenes/anime/anime4.png" alt="Anime 4">
+                </div>
+                <!-- Agrega más imágenes de anime si es necesario -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pdf">
+        <div class="container">
+            <div class="Enunciado">
+                <h2>ACTIVIDAD 1 - PROYECTO DE SOFTWARE</h2>
+                <a href=Enunciado-ACTIVIDAD1-Teoria.pdf>Enunciado del Sitio Web</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
